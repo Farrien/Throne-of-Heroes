@@ -1,0 +1,8 @@
+thunderhome
+{
+	material materials/overviews/thunderhome.vmat
+	pos_x -7680
+	pos_y 7168
+	scale 15.000
+}
+
