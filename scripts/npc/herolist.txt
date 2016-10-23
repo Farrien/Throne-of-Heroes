@@ -1,0 +1,20 @@
+"CustomHeroList"
+{
+	// По порядку их добавления в игру
+	"npc_dota_hero_abaddon"			"1"
+	"npc_dota_hero_antimage"		"1"
+	"npc_dota_hero_undying"			"0"
+	"npc_dota_hero_storm_spirit"	"1"
+	"npc_dota_hero_sniper"			"1"
+	"npc_dota_hero_nevermore"		"1"
+	"npc_dota_hero_faceless_void"	"1"
+	"npc_dota_hero_bloodseeker"		"1"
+	"npc_dota_hero_huskar"			"1"
+	"npc_dota_hero_weaver"			"1"
+	"npc_dota_hero_elder_titan"		"1"
+	
+	"npc_dota_hero_tidehunter"		"0"
+	"npc_dota_hero_omniknight"		"0"
+
+
+}

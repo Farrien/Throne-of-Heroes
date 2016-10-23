@@ -1,0 +1,64 @@
+// Dota Abilities Override File
+"DOTAAbilities"
+{
+	"Version"		"1"
+	
+	"sniper_take_aim"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"bonus_attack_range"			"150 500 850 1200"
+			}
+		}
+	}
+	"antimage_blink"
+	{
+		"AbilityCastPoint"				"0.33 0.33 0.33 0.33"
+		"AbilityManaCost"				"0"
+	}
+	"storm_spirit_ball_lightning"
+	{
+		"AbilityManaCost"				"25 25 25 25"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"										"FIELD_INTEGER"
+				"ball_lightning_initial_mana_percentage"		"3"
+			}
+			"02"
+			{
+				"var_type"								"FIELD_INTEGER"
+				"ball_lightning_initial_mana_base"		"25"
+			}
+			"03"
+			{
+				"var_type"								"FIELD_INTEGER"
+				"ball_lightning_move_speed"				"1250 1875 2500"
+			}
+			"04"
+			{
+				"var_type"								"FIELD_INTEGER"
+				"ball_lightning_aoe"					"300 300 300"
+			}
+			"05"
+			{
+				"var_type"								"FIELD_INTEGER"
+				"ball_lightning_travel_cost_base"		"14 12 10"
+			}
+			"06"
+			{
+				"var_type"								"FIELD_FLOAT"
+				"ball_lightning_travel_cost_percent"	"0.55"
+			}
+			"07"
+			{
+				"var_type"								"FIELD_INTEGER"
+				"ball_lightning_vision_radius"			"1000"
+			}
+		}
+	}
+}

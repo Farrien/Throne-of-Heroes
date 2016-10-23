@@ -1,0 +1,202 @@
+
+"DOTAHeroes"
+{
+	"npc_hero_shaman"
+	{
+		"override_hero"					"npc_dota_hero_elder_titan"
+		"Ability1"						"shaman_lightning_strike"
+		"Ability2"						""
+		"Ability3"						"shaman_lava_burst"
+		"Ability4"						"shaman_chain_lightning"
+		"Ability5"						"attribute_bonus"
+		"AbilityLayout"					"4"
+		"ModelScale" 					"0.6"
+		"AttributePrimary"				"DOTA_ATTRIBUTE_INTELLECT"
+		"AttributeBaseStrength"			"22"
+		"AttributeStrengthGain"			"1.6"
+		"AttributeAgilityGain"			"1.5"
+		"AttributeBaseAgility"			"8"
+		"AttributeAgilityGain"			"1.5"
+		"AttributeBaseIntelligence"		"28"
+		"AttributeIntelligenceGain"		"2.35"
+		"ArmorPhysical"					"5"
+		"BountyXP"						"0"            // Experience earn.
+		"BountyGoldMin"					"0"           // Gold earned min.
+		"BountyGoldMax"					"0"           // Gold earned max.
+	}
+	"npc_hero_weaver"
+	{
+		"override_hero"					"npc_dota_hero_weaver"
+		"Ability2"						"weaver_shukuchi_new"
+		"Ability4"						"weaver_time_lapse_extended"
+		"AttributeAgilityGain"			"3.0"
+		"BountyXP"						"0"            // Experience earn.
+		"BountyGoldMin"					"0"           // Gold earned min.
+		"BountyGoldMax"					"0"           // Gold earned max.
+	}
+	"npc_hero_huskar"
+	{
+		"override_hero"					"npc_dota_hero_huskar"
+		"Ability1"						"huskar_inner_vitality"
+		"Ability2"						"huskar_burning_spear"
+		"Ability3"						"huskar_berserker_blood"
+		"Ability4"						"huskar_life_break"
+		"ArmorPhysical"					"-1"
+		"AttackCapabilities"			"DOTA_UNIT_CAP_RANGED_ATTACK"
+		"AttackDamageMin"				"21"
+		"AttackDamageMax"				"30"
+		"AttackRate"					"1.6"
+		"AttackAnimationPoint"			"0.4"
+		"AttackAcquisitionRange"		"800"
+		"AttackRange"					"400"
+		"ProjectileModel"				"particles/units/heroes/hero_huskar/huskar_base_attack.vpcf"
+		"ProjectileSpeed"				"1400"
+		"AttributeBaseStrength"			"21"
+		"AttributeStrengthGain"			"2.4"
+		"AttributeBaseAgility"			"15"
+		"AttributeAgilityGain"			"1.4"
+		"AttributeBaseIntelligence"		"18"
+		"AttributeIntelligenceGain"		"1.5"
+		"MovementSpeed"					"300"
+		"MovementTurnRate"				"0.5"
+	}
+	"npc_hero_storm"
+	{
+		"override_hero"					"npc_dota_hero_storm_spirit"
+		"Ability2"						"storm_electric_vortex"
+	}
+	
+	"npc_hero_strygwyr"
+	{
+		"override_hero"					"npc_dota_hero_bloodseeker"
+		"Ability1"						"bloodseeker_bloodrage"
+		"Ability2"						"strygwyr_blood_rite"
+		"Ability3"						"strygwyr_thirst_new"
+		"Ability4"						"bloodseeker_rupture"
+		"AttackDamageMin"				"29"
+		"AttackDamageMax"				"35"
+		"AttackRate"					"1.7"
+		"AttackAnimationPoint"			"0.43"
+		"ArmorPhysical"					"0"
+		"AttributePrimary"				"DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength"			"23"
+		"AttributeBaseAgility"			"24"
+		"AttributeBaseIntelligence"		"18"
+		"AttributeStrengthGain"			"2.0"
+		"AttributeAgilityGain"			"3.0"
+		"AttributeIntelligenceGain"		"1.7"
+		"MovementSpeed"					"300"
+		"MovementTurnRate"				"0.5"
+		
+	}
+
+	"npc_hero_time_lord"
+	{
+		"override_hero"					"npc_dota_hero_faceless_void"
+		"Ability1"						"faceless_void_time_walk"
+		"Ability2"						"time_lord_fury"
+		"Ability3"						"time_lord_forgotten_knowledge"
+		"Ability4"						"time_lord_black_void"
+		"AttackDamageMin"				"40"
+		"AttackDamageMax"				"41"
+		"AttackRate"					"1.7"
+		"AttributePrimary"				"DOTA_ATTRIBUTE_AGILITY"
+		"AttributeBaseStrength"			"20"
+		"AttributeBaseAgility"			"25"
+		"AttributeBaseIntelligence"		"9"
+		"AttributeStrengthGain"			"1.6"
+		"AttributeAgilityGain"			"2.65"
+		"AttributeIntelligenceGain"		"0.25"
+		"StatusHealthRegen"				"0.75"
+		"MovementSpeed"					"290"
+		"ArmorPhysical" 				"1"
+		"MagicalResistance" 			"25"
+	
+	}
+	
+	"npc_hero_shadow_fiend"
+	{
+		"override_hero"					"npc_dota_hero_nevermore"		
+		"Ability4"						"shadow_fiend_necromastery"			
+		"Ability6"						"shadow_fiend_requiem"	
+		
+		"MovementSpeed"					"300"
+	}
+    "npc_imba_hero_sniper"
+	{
+		"override_hero"					"npc_dota_hero_sniper"
+
+		"ModelScale" 					".75"
+
+		"AttackAcquisitionRange"		"1500"
+
+		"Ability1"						"sniper_funny_rocket"
+	//	"Ability2"						"imba_sniper_take_aim_near"
+		"Ability3"						"sniper_snipe_rifle"
+	//	"Ability4"						"imba_sniper_headshot"
+		"AttackDamageMin"				"10"
+		"AttackDamageMax"				"15"
+		"ProjectileSpeed"				"3000"
+		"AttackRange"					"400"
+		"AttackRate"					"1.35"
+		"ArmorPhysical"					"-5"	
+		"AttributeBaseAgility"			"20"
+		"AttributeAgilityGain"			"2.5"
+		"AttributeBaseStrength"			"14"									// Base strength
+		"AttributeStrengthGain"			"2.2"									// Agility bonus per level.
+		"AttributeBaseIntelligence"		"22"									// Base intelligence
+		"AttributeIntelligenceGain"		"1.8"	
+		"MovementSpeed"					"295"
+		"VisionNighttimeRange"			"800"									// Range of vision at night time.
+
+	}
+	"npc_hero_dirge"
+	{
+		"override_hero"					"npc_dota_hero_undying"
+		"Ability1"						"dirge_decay"
+		"ArmorPhysical"					"-2"	
+		"AttributeBaseStrength"			"25"									// Base strength
+		"AttributeStrengthGain"			"1.8"									// Agility bonus per level.
+		"AttributeBaseIntelligence"		"27"									// Base intelligence
+		"AttributeIntelligenceGain"		"2.7"	
+		"MovementSpeed"					"285"	
+	}
+	"npc_hero_witch_hunter"
+	{
+		"override_hero"					"npc_dota_hero_antimage"
+		"Ability1"						"witch_hunter_soul_break"
+		"Ability3"						"witch_hunter_spell_shield"
+		"Ability4"						"witch_hunter_mana_void"
+		"ArmorPhysical"					"0"
+		"AttackDamageMin"				"27"
+		"AttackDamageMax"				"37"
+		"AttackRate"					"1.4"
+		"AttackAnimationPoint"			"0.3"
+		"AttackAcquisitionRange"		"600"
+		"AttributeBaseStrength"			"22"
+		"AttributeStrengthGain"			"1.2"
+		"AttributeBaseIntelligence"		"10"
+		"AttributeIntelligenceGain"		"1"
+		"AttributeBaseAgility"			"22"
+		"AttributeAgilityGain"			"2.5"
+		"MovementSpeed"					"320"
+		"StatusHealthRegen"				"0.75"
+	}
+
+	"npc_hero_netherlyte"
+	{
+		"override_hero"					"npc_dota_hero_abaddon"
+		"Ability1"						"netherlyte_mist_coil"
+		"Ability2"						"netherlyte_unholy_power_shield"
+		"Ability3"						"netherlyte_shadow_edge"
+		"ArmorPhysical"					"0"
+		"AttributeBaseStrength"			"21"
+		"AttributeStrengthGain"			"2.4"
+		"AttributeBaseAgility"			"19"
+		"AttributeAgilityGain"			"2.2"
+		"AttributeBaseIntelligence"		"20"
+		"AttributeIntelligenceGain"		"1.0"
+		"MovementSpeed"					"320"
+		"MovementTurnRate"				"0.3"
+	}
+}
